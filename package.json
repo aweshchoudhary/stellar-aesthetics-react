@@ -1,0 +1,45 @@
+{
+  "name": "stellar-aesthetics-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@iconify/react": "^4.0.1",
+    "framer-motion": "^8.5.2",
+    "html-react-parser": "^3.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.5.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "style": "npx tailwindcss -i ./src/Styles/input.css -o ./src/Styles/output.css --watch",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
